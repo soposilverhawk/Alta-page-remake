@@ -1,0 +1,53 @@
+:root {
+  --primary-color: rgba(114, 38, 236, 0.808);
+  --secondary-color: rgba(156, 100, 247, 0.808);
+}
+.btn-outline-primary {
+  border: 1px solid var(--secondary-color);
+  color: #fff;
+}
+.btn-outline-primary:hover {
+  background-color: var(--secondary-color);
+}
+.category-items,
+#language-and-account {
+  gap: 1rem;
+}
+.category-items li:not(:last-child) {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+#container {
+  max-width: 1920px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+}
+#nav-container {
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 20%;
+  z-index: 9999;
+  background-color: #201f1f;
+}
+#header-controls {
+  width: 80%;
+  justify-content: space-evenly;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 20%;
+  position: sticky;
+}
+#header-controls-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary-color);
+}
