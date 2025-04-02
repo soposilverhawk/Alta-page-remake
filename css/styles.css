@@ -51,3 +51,10 @@ header {
   justify-content: center;
   background-color: var(--primary-color);
 }
+main {
+  width: 80%;
+  margin: 0 20%;
+}
+#section-1 {
+  width: 100%;
+}
