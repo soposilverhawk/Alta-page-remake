@@ -55,6 +55,46 @@ main {
   width: 80%;
   margin: 0 20%;
 }
-#section-1 {
+#section-1,
+#section-2 {
   width: 100%;
+}
+#section-2 {
+  margin: 2.5rem 0 5rem 0;
+}
+#FAQ-and-contact-info {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#cards-container {
+  gap: 1.5rem;
+}
+.card {
+  border: 1px solid var(--primary-color);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in, transform 0.2s ease-in;
+}
+.card:hover {
+  background-color: var(--primary-color);
+  transform: scale(1.1);
+}
+.card-body a i {
+  margin-left: 1rem;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.card-img-top {
+  width: 80%;
+  height: 40%;
+}
+.card-title {
+  font-size: 15px;
 }
