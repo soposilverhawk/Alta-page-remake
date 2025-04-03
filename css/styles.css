@@ -51,13 +51,10 @@ header {
   justify-content: center;
   background-color: var(--primary-color);
 }
-main {
+main,
+footer {
   width: 80%;
   margin: 0 20%;
-}
-#section-1,
-#section-2 {
-  width: 100%;
 }
 #section-2 {
   margin: 2.5rem 0 5rem 0;
@@ -67,6 +64,10 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background-color: var(--primary-color);
+}
+#business-email {
+  text-align: center;
 }
 #cards-container {
   gap: 1.5rem;
@@ -97,4 +98,45 @@ main {
 }
 .card-title {
   font-size: 15px;
+}
+#about-us-container,
+#contact-us-container,
+#social-media-links-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#about-us-container nav ul li {
+  margin: 1rem 0;
+}
+#social-media-links-container div {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.fab {
+  color: #201f1f;
+  font-size: 30px;
+  cursor: pointer;
+}
+.fab:hover {
+  color: var(--secondary-color);
+}
+#contact-us-btn {
+  background-color: #201f1f;
+}
+#contact-us-btn:hover {
+  background-color: black;
+}
+.btn-outline-primary-alta {
+  border: 1px solid var(--primary-color)
+}
+.btn-outline-primary-alta:hover {
+  border-color: var(--primary-color);
+  background-color: black
+}
+.card:hover .card-body a {
+  background-color: black;
 }
